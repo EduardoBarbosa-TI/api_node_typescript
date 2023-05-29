@@ -19,5 +19,6 @@ export const deleteById =  async(req: Request<IParamProps>, res: Response) => {
       default: 'Registro não encontrado'
     }
   })
+  
   return res.status(StatusCodes.NO_CONTENT).send()
 }
