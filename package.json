@@ -33,6 +33,6 @@
     "typescript": "^5.0.4"
   },
   "engine": {
-    "node": "16x"
+    "node": "16.x"
   }
 }
